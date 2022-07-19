@@ -1,0 +1,9 @@
+{
+    "presets": ["@babel/preset-typescript", ["minify", {
+      "mangle": {
+        "exclude": ["MyCustomError"]
+      },
+     
+      "keepFnName": true
+    }]]
+  }
